@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_OTHER_SYMBOLS] = LAYOUT_5x6_5(
         SE_TILD,       KC_F1,      KC_F2,         KC_F3,     KC_F4,     KC_F5,                    KC_F6,    KC_F7,      KC_F8,      KC_F9,           KC_F10,  KC_F11,
-        KC_TRNS,       SE_DLR,     SE_AT,         SE_LCBR,   SE_RCBR,   SE_AMPR,                  KC_RPRN,  KC_MINS,    KC_UP,      KC_PIPE,         KC_RCBR, KC_F12,
+        KC_TRNS,       SE_AT,      SE_DLR,         SE_LCBR,   SE_RCBR,   SE_AMPR,                  KC_RPRN,  KC_MINS,    KC_UP,      KC_PIPE,         KC_RCBR, KC_F12,
         KC_TRNS,       KC_ASTR,    KC_LPRN,       KC_GT,     KC_LT,     SE_PIPE,                  KC_EXLM,  KC_LEFT,    KC_DOWN,    KC_RGHT,         KC_HASH, KC_TRNS,
         KC_TRNS,       SE_LABK,    SE_RABK,       KC_TRNS,   KC_TRNS,   KC_TRNS,                  KC_PERC,  SE_LBRC,   SE_RBRC,     RALT(SE_PLUS),KC_UNDS, KC_AT,
                      QK_BOOT,    KC_TRNS,       GU_TOGG,     KC_TRNS,   KC_TRNS,                  KC_TRNS,  KC_TRNS,    KC_TRNS,    KC_TRNS,   DF(_MAC_QWERTY),
